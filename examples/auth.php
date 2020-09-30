@@ -14,9 +14,11 @@ if (empty($config)) {
  * 
  * @var MiniProgram $miniProgram
  */
-$miniProgram = new MiniProgram($config);
+MiniProgram::setOptions($config);
+$auth = MiniProgram::base()->oauth();
+$ret = $auth->getToken('xxx');
 
 // code2session
-$ret = $miniProgram->auth->session('');
+//$ret = $miniProgram->auth->session('');
 
 var_dump($ret);
