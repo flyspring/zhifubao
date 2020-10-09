@@ -25,8 +25,7 @@
 		"songshenzong/support" : "^2.0",
 		"danielstjules/stringy" : "^3.1",
 		"mtdowling/jmespath.php" : "^2.4",
-		"adbario/php-dot-notation" : "^2.2",
-		"alibabacloud/tea-fileform" : "^0.3.2"
+		"adbario/php-dot-notation" : "^2.2"
 	},
 	"autoload" : {
 		"psr-4" : {
